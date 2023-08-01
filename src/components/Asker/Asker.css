@@ -1,0 +1,30 @@
+.coffee-search {
+    position: relative;
+    left: 30px;
+    top: -10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 220px;
+}
+
+.coffee-search input {
+    width: 100%;
+    margin-left: 4px;
+}
+
+.input-instructions {
+    margin: 0;
+    width: 100%;
+}
+
+.input-error {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+
+    margin: 0;
+    color: rgb(172, 0, 0);
+}

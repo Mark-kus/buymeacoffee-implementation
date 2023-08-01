@@ -1,0 +1,28 @@
+.user-coffee {
+    position: relative;
+    top: -4px;
+    left: -8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-coffee p {
+    margin: 0;
+}
+
+.user-coffee a {
+    color: black;
+    text-decoration: none;
+
+    font-size: xx-large;
+}
+
+.user-coffee a:hover {
+    text-decoration: underline;
+}
+
+.mute {
+    opacity: 0.6;
+}
