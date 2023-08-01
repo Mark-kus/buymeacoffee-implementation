@@ -1,28 +1,31 @@
 .user-coffee {
     position: relative;
-    top: -4px;
-    left: -8px;
+    top: -5px;
+    left: 10px;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
-.user-coffee p {
-    margin: 0;
-}
-
-.user-coffee a {
+.buy-button {
+    background-color: #c0a600;
+    border: none;
+    border-radius: 9px;
     color: black;
+
     text-decoration: none;
 
-    font-size: xx-large;
+    padding: 2px 5px;
+    margin-top: 4px;
+
+    transition: color 300ms ease, background 300ms ease;
 }
 
-.user-coffee a:hover {
-    text-decoration: underline;
+.buy-button:hover {
+    color: #c0a600;
+    background-color: black;
 }
 
-.mute {
-    opacity: 0.6;
+.user-coffee h1 {
+    margin: 0;
 }

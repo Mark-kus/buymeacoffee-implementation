@@ -18,7 +18,7 @@ function App() {
 
   const handleKeyPress = (e) => {
     if (e.key === "Enter") {
-      if (input.includes(coffeeDomain)) {
+      if (input.includes(coffeeDomain + "/")) {
 
         const value = input.replace(coffeeDomain + "/", "")
 
@@ -40,14 +40,14 @@ function App() {
       <img className={`coffee-image ${data ? "opacity-100" : "opacity-0"}`}
         src={coffeeImageYellow}
         alt="buymeacoffee brand icon"
-        width={96}
-        height={96} />
+        width={62}
+        height={62} />
 
       <img className={`coffee-image ${data ? "opacity-0" : "opacity-100"}`}
         src={coffeeImageWhite}
         alt="buymeacoffee brand icon"
-        width={96}
-        height={96} />
+        width={62}
+        height={62} />
 
       {!data ?
         <Asker

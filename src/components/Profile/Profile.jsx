@@ -4,10 +4,14 @@ export default function Profile({ data, input }) {
     return (
         <div className='user-coffee'>
 
-            <a href={input} target="_blank" rel="noreferrer">
+            <h1>
                 {data}
-            </a>
-            <p className='mute'>Buy this user a coffee</p>
+            </h1>
+            <a
+                href={input}
+                target="_blank"
+                rel="noreferrer"
+                className="buy-button">Buy {data} a coffee</a>
 
         </div>
     )
